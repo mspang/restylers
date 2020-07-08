@@ -4,7 +4,7 @@ ENV LANG en_US.UTF-8
 RUN \
   apt-get update -y && \
   apt-get install -y --no-install-recommends \
-    clang-format=1:9.0-49~exp1 && \
+    clang-format=1:10.0-50~exp1 && \
   rm -rf /var/lib/apt/lists/*
 RUN mkdir -p /code
 WORKDIR /code
